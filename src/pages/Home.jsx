@@ -20,7 +20,7 @@ function Home() {
             className="text-4xl font-extrabold"
             style={{ fontFamily: "'Poppins', sans-serif" }}
           >
-            Welcome to Court Booking App
+            Welcome to Sport Booking App
           </h1>
         </div>
       </header>
@@ -34,7 +34,7 @@ function Home() {
               className="text-3xl font-bold mb-4"
               style={{ fontFamily: "'Roboto', sans-serif", color: "#f5f5f5" }}
             >
-              Book your favorite courts easily
+              Book your favorite courts for your sport easily
             </h2>
             <p
               className="text-gray-200 mb-6"

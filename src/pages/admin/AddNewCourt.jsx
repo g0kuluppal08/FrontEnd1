@@ -123,7 +123,7 @@ function AddNewCourt() {
       <nav className="w-full py-2 bg-white shadow-md fixed top-0 left-0 z-50">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-xl font-bold text-blue-600 ml-5">
-            Court Booking Admin
+            Sport Booking Admin
           </div>
           <div className="space-x-4">
             <Link

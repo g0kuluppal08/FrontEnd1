@@ -77,7 +77,7 @@ function SignUp() {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo or brand name */}
           <div className="text-xl font-bold text-blue-600 ml-5">
-            Court Booking App
+            Sport Booking App
           </div>{" "}
           {/* Adjusted text size */}
           {/* Navbar buttons */}
