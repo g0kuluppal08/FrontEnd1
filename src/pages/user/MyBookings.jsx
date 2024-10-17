@@ -41,6 +41,18 @@ function MyBookings() {
 
     fetchBookings();
   }, []);
+  const formatedDate = (bookingDate) => {
+    const date = new Date(bookingDate);
+
+    // Extract the year, month, and day
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0"); // Months are 0-indexed, so add 1
+    const day = String(date.getDate()).padStart(2, "0");
+
+    // Format the date in 'YYYY-MM-DD' format
+    const formattedDate = `${year}-${month}-${day}`;
+    return formattedDate;
+  };
 
   return (
     <div className="min-h-screen bg-white p-8 w-screen">
@@ -89,7 +101,7 @@ function MyBookings() {
                 <strong>Sport:</strong> {booking.sport}
               </p>
               <p>
-                <strong>Date:</strong> {booking.date}
+                <strong>Date:</strong> {formatedDate(booking.date)}
               </p>
               <p>
                 <strong>Time:</strong> {booking.startTime+ "-"+booking.endTime}
